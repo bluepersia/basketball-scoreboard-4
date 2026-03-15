@@ -1,0 +1,19 @@
+.score__title {
+  text-transform: uppercase;
+  font-size: 2.22rem;
+  margin-bottom: 0.52em;
+}
+
+.score__count {
+  background-color: var(--color-black);
+  font-family: CursedTimer;
+  color: var(--color-red);
+  font-size: 5rem;
+  padding: 0.1em;
+  margin-bottom: 0.32em;
+}
+
+.score__btns {
+  display: flex;
+  justify-content: space-between;
+}

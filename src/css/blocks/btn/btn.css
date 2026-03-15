@@ -1,0 +1,14 @@
+.btn {
+  font-family: CursedTimer;
+  background-color: transparent;
+  border: solid 2px var(--color-light-blue);
+  border-radius: 0.27em;
+  padding: 0.5em;
+  color: var(--color-light-blue);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--color-light-blue);
+  color: var(--color-black);
+}
