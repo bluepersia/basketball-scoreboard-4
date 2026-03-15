@@ -17,28 +17,28 @@
     <main>
       <h1 class="sr-only">Basketball Scoreboard</h1>
       <section class="scoreboard">
-        <p class="scoreboard__announcement">Time left: 60</p>
+        <p class="scoreboard__announcement" id="announcement">Time left: 60</p>
         <div class="scoreboard__scores">
-          <div class="score">
+          <div class="score" id="home">
             <h2 class="score__title">Home</h2>
-            <p class="score__count">0</p>
+            <p class="score__count" data-count>0</p>
             <div class="score__btns">
-              <button class="btn">+1</button>
-              <button class="btn">+2</button>
-              <button class="btn">+3</button>
+              <button class="btn" data-plus-one>+1</button>
+              <button class="btn" data-plus-two>+2</button>
+              <button class="btn" data-plus-three>+3</button>
             </div>
           </div>
-          <div class="score">
+          <div class="score" id="guest">
             <h2 class="score__title">Guest</h2>
-            <p class="score__count">0</p>
+            <p class="score__count" data-count>0</p>
             <div class="score__btns">
-              <button class="btn">+1</button>
-              <button class="btn">+2</button>
-              <button class="btn">+3</button>
+              <button class="btn" data-plus-one>+1</button>
+              <button class="btn" data-plus-two>+2</button>
+              <button class="btn" data-plus-three>+3</button>
             </div>
           </div>
         </div>
-        <button class="btn scoreboard__new-game">New Game</button>
+        <button class="btn scoreboard__new-game" id="new-game">New Game</button>
       </section>
     </main>
   </body>
