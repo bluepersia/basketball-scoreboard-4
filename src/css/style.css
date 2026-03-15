@@ -1,0 +1,25 @@
+@font-face {
+  font-family: CursedTimer;
+  src: url("/assets/CursedTimer.ttf");
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  --color-dark-blue: #1b244a;
+  --color-white: #eeeeee;
+  --color-black: #080001;
+  --color-red: #f94f6d;
+  --color-light-blue: #9aabd8;
+}
+
+button {
+  display: block;
+}
