@@ -1,0 +1,20 @@
+.scoreboard {
+  text-align: center;
+  color: var(--color-white);
+  padding: 3.7em 4.72em;
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+.scoreboard__announcement {
+  margin-bottom: 2em;
+}
+
+.scoreboard__scores {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scoreboard__new-game {
+  margin: 0 auto;
+}
